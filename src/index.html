@@ -5,10 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grow Your Plant</title>
 </head>
-<body>
+<body class="flex flex-center">
+  <!--
   <button id="feed">Add soil</button>
   <button id="show-state">Current Stats</button>
   <h1>Your Plant's Values</h1>
   <h3><div id="soil-value">0</div></h3>
+  -->
+
+  <section class="flex col" id="pickPlants">
+    <div class="flex flex-center">
+      <div class="flex col flex-center player green" id="1P">
+        <div>
+          <button id="1P-button">Get 1P's Plant</button>
+        </div>
+        <div>
+          <p id="1P-plant"></p>
+        </div>
+      </div>
+      <div class="flex col flex-center player salmon" id="2P">
+        <div>
+          <button id="2P-button">Get 2P's Plant</button>
+        </div>
+        <div>
+          <p id="2P-plant"></p>
+        </div>
+      </div>  
+    </div>
+    <div class="flex flex-center">
+      <button id="start">Let's play game!</button>
+    </div>
+  </section>
+  <section class="flex flex-center hidden" id="game">
+    <div class="flex col flex-center player green" id="1P-score">
+      <div>
+        <p>1P: <span id="1P-plantName"></span></p>
+      </div>
+      <div>
+        <button id="1P-feed">Manage Soil</button>
+        <button id="1P-hydrate">Water</button>
+        <button id="1P-photo">Add Light</button>  
+      </div>
+      <div>
+        <p id="1P-result"></p>
+        <p>Soil: <span id="1P-soil">0</span></p>
+        <p>Water: <span id="1P-water">0</span></p>
+        <p>Light: <span id="1P-light">0</span></p>
+      </div>
+    </div>
+    <div class="flex col flex-center player salmon" id="2P-score">
+      <div>
+        <p>2P: <span id="2P-plantName"></span></p>
+      </div>
+      <div>
+        <button id="2P-feed">Manage Soil</button>
+        <button id="2P-hydrate">Water</button>
+        <button id="2P-photo">Add Light</button>  
+      </div>
+      <div>
+        <p id="2P-result"></p>
+        <p>Soil: <span id="2P-soil">0</span></p>
+        <p>Water: <span id="2P-water">0</span></p>
+        <p>Light: <span id="2P-light">0</span></p>
+      </div>
+    </div>  
+  </section>
 </body>
 </html>
