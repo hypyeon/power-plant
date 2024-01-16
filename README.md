@@ -1,22 +1,14 @@
-# Title
+# Power Plant
 by [Hayeong Pyeon](https://www.hayeong.website)
-
-## Table of Contents
-1. [Technologies Used](#technologies-used)
-2. [Description](#description)
-3. [Setup Requirements](#setup-requirements)
-4. [Link](#link)
-5. [Known Bugs](#known-bugs)
-6. [License](#license)
 
 ## Technologies used
 - HTML5, SCSS, JavaScript
-- npm
-- Tests using Jest
+- npm, webpack, package.json
+- lint, Jest
 
 ## Description
-- This is ...
-- This is ...
+- This is part of in-class practice in Functional Programming course of Epicodus. 
+- In review of **Spread Operator**, **Composition**, and **Storing State in Closure**. 
 
 ## Setup Requirements
 1. Clone this repository to your desktop and open it with a text editor.
@@ -26,12 +18,8 @@ by [Hayeong Pyeon](https://www.hayeong.website)
 * To lint JS files in the src folder, use `npm run lint`.
 * To run tests with Jest, use `npm run test`.
 
-## Link
-
-
-## Known Bugs
-- Currently ...
-- Last updated: 
+## Last Updated 
+- Jan 16, 2024
 
 ## License
-[MIT](/LICENSE.txt) Copyright © 2023 Hayeong Pyeon
+[MIT](/LICENSE.txt) Copyright © 2024 Hayeong Pyeon
